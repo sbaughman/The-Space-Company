@@ -193,7 +193,7 @@ aside .avatar {
   margin-top: 40px;
   height: 250px;
   width: 100%;
-  background: background-color: gray;
+  background: gray;
   z-index: 1;
   position: relative;
   color: rgba(0,0,0,0.8);
