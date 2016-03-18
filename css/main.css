@@ -225,12 +225,13 @@ aside a:hover {
 }
 
 .post-links {
-  border-top: 2px solid gray;
+  border-top: 1px solid #eee;
   font-size: 0;
 }
 
 .post-links h1 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .post-links div {
