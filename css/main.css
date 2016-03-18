@@ -160,7 +160,7 @@ aside .avatar {
   background: background-color: gray;
   z-index: 1;
   position: relative;
-  color: rgba(0,0,0,0.8)
+  color: rgba(0,0,0,0.8);
 }
 
 .ad::before {
