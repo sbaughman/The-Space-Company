@@ -1,0 +1,395 @@
+header {
+  height: 400px;
+  background-color: gray;
+  z-index: 1;
+  position: relative;
+  color: rgba(0,0,0,0.8)
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+  z-index: -1;
+  background: url(images/header_bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 15px;
+  color: rgba(180,180,180,0.9);
+}
+
+header h1 {
+  margin-top: 90px;
+  color: rgba(255,255,255,0.9);
+  font-size: 80px;
+}
+
+header h2 {
+  margin-top: -10px;
+  font-size: 15px;
+  color: rgba(180,180,180,0.9);
+}
+
+#logo {
+  width: 6%;
+}
+
+header ul {
+  padding: 15px;
+}
+
+header a {
+  color: rgba(180,180,180,0.9);
+}
+
+header a:hover {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content p {
+  line-height: 1.75;
+  padding-top: 10px;
+  color: #777;
+}
+
+.interject {
+  padding: 10px;
+  font-size: 25px;
+  border-left: 2px solid #337ab7;
+  color: black;
+}
+
+.avatar {
+  border-radius: 50%;
+  opacity: .7;
+}
+
+main .avatar {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.subheading {
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+.subheading p {
+  color: #337ab7;
+  font-size: 10px;
+  display: inline;
+}
+
+.subheading span {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: #bbb;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.options li {
+  background: #777;
+  margin-right: 10px;
+}
+
+.options i {
+  padding: 5px;
+  color: #fff;
+  background: #333;
+  margin-right: 10px;
+}
+
+#share {
+  background: rgba(6,46,82,1)
+}
+
+.options a {
+  color: #fff;
+  background: #777;
+  padding: 5px;
+  display: inline-block;
+  width: 135px;
+  margin-right: 10px;
+}
+
+.options a:last-child {
+  background: #337ab7;
+}
+
+
+
+
+aside {
+  margin-bottom: 60px;
+}
+
+aside h2 {
+  margin-top: 80px;
+  font-size: 16px;
+  color: #337ab7;
+}
+
+aside p {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.author {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.author h3 {
+  font-size: 14px;
+  margin-top: 7px;
+  color: #337ab7;
+}
+
+.author ul {
+  margin-top: -10px;
+}
+
+.author a {
+  color: #bbb;
+  font-size: 10px;
+}
+
+aside .avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.ad {
+  margin-top: 40px;
+  height: 250px;
+  width: 100%;
+  background: gray;
+  z-index: 1;
+  position: relative;
+  color: rgba(0,0,0,0.8);
+}
+
+.ad::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+  z-index: -1;
+  background: url(images/header_bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.ad a {
+  position: relative;
+  margin-top: 255px;
+  font-size: 10px;
+  color: #bbb;
+  text-decoration: underline;
+}
+
+aside a:hover {
+  color: #337ab7;
+}
+
+.post-links {
+  border-top: 1px solid #eee;
+  font-size: 0;
+}
+
+.post-links h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.post-links div {
+  display: inline-block;
+  width: calc(1/4 * 100%);
+  height: calc(1/4 * 100vw);
+  overflow: hidden;
+  position: relative;
+}
+
+.post-links a {
+  font-size: 20px;
+  color: rgba(255,255,255,0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.post-links a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.post1 {
+  background-image: url(images/space1.jpg);
+  background-size: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.post1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  z-index: -1;
+  background: gray;
+}
+
+.post2 {
+  background-image: url(images/space2.jpg);
+  background-size: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.post2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  z-index: -1;
+  background: gray;
+}
+
+.post3 {
+  background-image: url(images/space3.jpg);
+  background-size: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.post3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  z-index: -1;
+  background: gray;
+}
+
+.post4 {
+  background-image: url(images/space4.jpg);
+  background-size: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.post4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  z-index: -1;
+  background: gray;
+}
+
+footer {
+  background-color: #333;
+  color: #eee;
+  padding: 30px;
+  font-size: 12px;
+}
+
+footer li {
+  border-left: 1px solid #eee;
+}
+
+footer li:first-child {
+  border-left: none;
+}
+
+footer a {
+  color: #eee;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 60px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .interject {
+    font-size: 20px;
+  }
+
+  .author {
+    margin-top: 20px;
+  }
+
+  main {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  footer a {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    padding: 10px;
+  }
+}
