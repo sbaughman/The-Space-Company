@@ -44,6 +44,11 @@ header h2 {
   color: rgba(180,180,180,0.9);
 }
 
+header h3 {
+  margin-top: 40px;
+  color: rgba(100,100,100,0.6);
+}
+
 #logo {
   width: 6%;
 }
